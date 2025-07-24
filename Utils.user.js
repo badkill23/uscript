@@ -2,7 +2,7 @@
 // @name         Utils DOM
 // @namespace    badkill
 // @description  Módulo reutilizable con diferentes funciones
-// @version      1.0.3
+// @version      1.0.5
 // @author       badkill
 // @homepageURL  https://github.com/badkill23
 // @supportURL   https://github.com/badkill23/uscript/issues
@@ -20,8 +20,8 @@
             return document.querySelector(selector);
         },
 
-        qSelectorID(selector) {
-            return document.querySelector(selector);
+        qSelecID(selector) {
+            return document.getElementById(selector);
         },
 
         qSelectors(selector) {
@@ -66,6 +66,5 @@
 
     // Exportar como global para usar en otros scripts
     global.utilsDOM = utilsDOM;
-    global.utilsDOM = utilsDOM.activateAndScroll = activateAndScroll;
 
 })(window);
