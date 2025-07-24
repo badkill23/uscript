@@ -66,5 +66,6 @@
 
     // Exportar como global para usar en otros scripts
     global.utilsDOM = utilsDOM;
+    global.utilsDOM = utilsDOM.activateAndScroll = activateAndScroll;
 
 })(window);
