@@ -2,7 +2,7 @@
 // @name         Utils DOM
 // @namespace    badkill
 // @description  Módulo reutilizable con diferentes funciones
-// @version      1.0.5
+// @version      1.0.6
 // @author       badkill
 // @homepageURL  https://github.com/badkill23
 // @supportURL   https://github.com/badkill23/uscript/issues
@@ -61,7 +61,12 @@
             selector.focus();
             if (selector.select) selector.select();
         }
-    }
+    	},
+
+	function isMobile() {
+            const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+            return regex.test(navigator.userAgent);
+	}
     };
 
     // Exportar como global para usar en otros scripts
