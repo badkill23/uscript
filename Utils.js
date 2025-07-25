@@ -1,11 +1,4 @@
-// ==UserScript==
-// @name         Utils DOM
-// @namespace    badkill
-// @description  Módulo reutilizable con diferentes funciones
-// @version      1.0.7
-// @author       badkill
-// @grant        none
-// ==/UserScript==
+// Utils DOM.js - Librería reutilizable
 
 
 (function (global) {
