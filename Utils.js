@@ -2,12 +2,8 @@
 // @name         Utils DOM
 // @namespace    badkill
 // @description  Módulo reutilizable con diferentes funciones
-// @version      1.0.6
+// @version      1.0.7
 // @author       badkill
-// @homepageURL  https://github.com/badkill23
-// @supportURL   https://github.com/badkill23/uscript/issues
-// @updateURL    https://github.com/badkill23/uscript/raw/main/Utils.user.js
-// @downloadURL  https://github.com/badkill23/uscript/raw/main/Utils.user.js
 // @grant        none
 // ==/UserScript==
 
