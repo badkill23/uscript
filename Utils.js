@@ -4,7 +4,6 @@
 (function (global) {
     'use strict';
 
-    const utilsDOM = {
         const qSelector(selector) {
             return document.querySelector(selector);
         };
