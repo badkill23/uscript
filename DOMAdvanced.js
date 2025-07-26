@@ -215,7 +215,7 @@ const DOMAdvanced = (() => {
     };
 })();
 
-/*
+
 // Uso en userscripts:
 // ==UserScript==
 // @name         Mi Userscript
@@ -228,7 +228,7 @@ const DOMAdvanced = (() => {
 // @require      https://raw.githubusercontent.com/tupath/to/DOMAdvanced.js
 // ==/UserScript==
 
-
+/*
 (async function() {
     'use strict';
     
